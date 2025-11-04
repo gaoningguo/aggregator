@@ -2,7 +2,7 @@ name: Collect
 on:
   schedule:
     - cron: "0 23 * * *"  # UTC时间23点 = 北京时间次日7点
-     timezone: "UTC"
+      timezone: "UTC"
   workflow_dispatch:
 
 concurrency:
